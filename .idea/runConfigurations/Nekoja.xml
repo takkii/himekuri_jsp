@@ -1,0 +1,24 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Nekoja" type="com.poratu.idea.plugins.tomcat" factoryName="SMART_TOMCAT_FACTORY">
+    <option name="adminPort" value="8008" />
+    <option name="contextPath" value="/NekojaCat" />
+    <option name="docBase" value="$PROJECT_DIR$" />
+    <option name="envOptions">
+      <map />
+    </option>
+    <option name="passParentEnvironmentVariables" value="true" />
+    <option name="port" value="8000" />
+    <option name="tomcatInfo">
+      <TomcatInfo>
+        <option name="name" value="Apache Tomcat/9.0.41" />
+        <option name="number" value="0" />
+        <option name="path" value="$USER_HOME$/tomcat/apache-tomcat-9.0.41" />
+        <option name="version" value="9.0.41.0" />
+      </TomcatInfo>
+    </option>
+    <option name="vmOptions" value="" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
