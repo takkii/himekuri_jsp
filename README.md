@@ -13,6 +13,8 @@ IntelliJ側 Apache Tomcat/9.0.41
 
 #### 環境によりポート番号が変わる
 
+※ コンフリクトをさけるため、デフォルトよりずらしてある。
+
 ```markdown
-http://localhost:8080/NekojaCat/
+http://localhost:8000/NekojaCat/
 ```
