@@ -6,7 +6,8 @@
   private String GetDate() {
     final SimpleDateFormat sdf_koyomi = new SimpleDateFormat("yyyy年MM月dd日HH時mm分ss秒 ： EEEE");
     final Calendar cal = Calendar.getInstance();
-    return sdf_koyomi.format(cal.getTime());
+    final String koyomi = sdf_koyomi.format(cal.getTime());
+    return koyomi;
   }
   private String GetTitle(){
     final String str = "日めくりJSP版";
@@ -31,7 +32,8 @@
     final int nen_getsu = cal.getActualMaximum(Calendar.DAY_OF_YEAR);
     int int_year = (nen_getsu - nen_nichi);
     final String string_year = Integer.toString(int_year);
-    return "来年の1月1日まであと" + comma + string_year + "日です";
+    final String string_str = "来年の1月1日まであと" + comma + string_year + "日です";
+    return string_str;
   }
   private String GetNumber(){
     final String comma = " : ";
