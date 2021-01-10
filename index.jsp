@@ -60,10 +60,9 @@
 <html lang="ja">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>日めくりJSP</title>
+    <title><%= GetTitle() %></title>
   </head>
   <body>
-    <h1><%= GetTitle() %></h1>
     <p><%= GetDate() %></p>
     <p><%= Getkoyomi() %></p>
     <p><%= Gethimekuri() %></p>

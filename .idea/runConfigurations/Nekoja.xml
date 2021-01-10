@@ -12,7 +12,7 @@
       <TomcatInfo>
         <option name="name" value="Apache Tomcat/9.0.41" />
         <option name="number" value="0" />
-        <option name="path" value="$USER_HOME$/tomcat/apache-tomcat-9.0.41" />
+        <option name="path" value="$USER_HOME$/apache-tomcat-9.0.41" />
         <option name="version" value="9.0.41.0" />
       </TomcatInfo>
     </option>
