@@ -3,15 +3,15 @@
 <%@ page import="java.util.Date, java.text.SimpleDateFormat, java.util.Calendar" %>
 
 <%!
+  private String GetTitle(){
+    final String str = "日めくりJSP版";
+    return str;
+  }
   private String GetDate() {
     final SimpleDateFormat sdf_koyomi = new SimpleDateFormat("yyyy年MM月dd日HH時mm分ss秒 ： EEEE");
     final Calendar cal = Calendar.getInstance();
     final String koyomi = sdf_koyomi.format(cal.getTime());
     return koyomi;
-  }
-  private String GetTitle(){
-    final String str = "日めくりJSP版";
-    return str;
   }
   private String Getkoyomi(){
     final String reiwa_kanji = "令和";
