@@ -1,8 +1,8 @@
 <%@page contentType="text/html"%>
 <%@page pageEncoding="UTF-8"%>
 <%@ page import="java.util.Date, java.text.SimpleDateFormat, java.util.Calendar" %>
+
 <%!
-  //メソッドの宣言
   private String GetDate() {
     final SimpleDateFormat sdf_koyomi = new SimpleDateFormat("yyyy年MM月dd日HH時mm分ss秒 ： EEEE");
     final Calendar cal = Calendar.getInstance();
